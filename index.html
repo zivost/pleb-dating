@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="msvalidate.01" content="2F8029B2F9675F8EB31F2212658FD5E3"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleb</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="assets/css/pleb.css" rel="stylesheet">
+</head>
+<script>
+    window.onload = function() {
+        myFunction();
+    };
+    
+    window.addEventListener('resize', myFunction);
+    function myFunction() {
+        let height = window.innerHeight;
+        let width = window.innerWidth;
+        console.log(width);
+        document.getElementById("body").style.maxHeight = `${height+60}px`;
+        document.getElementById("body").style.height = `${height+60}px`;
+        document.getElementById("home-contain").style.maxHeight = `${height}px`;
+        document.getElementById("home-contain").style.height = `${height}px`;
+        document.getElementById("footer").style.display = "block";
+        if(width === 320){
+            document.getElementById("container-text").style.fontSize = `${29}px`;
+        }
+    }
+</script>
+<body>
+<div class="home" id="body">
+<div class="home-contain" id="home-contain">
+        <header id="header">
+                <div class="header-area">
+                    <div class="header-logo">
+                        <img src="https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/logo%403x.png">
+                    </div>
+                </div>
+            </header>
+    <div class="left-side-container">
+        <div class="left-side">
+                <div class="container-text" id="container-text">
+                        “Beautiful faces don’t build beautiful relationships, beautiful souls do.”
+                    </div>
+                    <div class="container-sub-text">
+                        <span class="tag-text">#JudgeFree</span> speed dating
+                    </div>
+                    <div class="container-download-buttons">
+                        <div class="ios-btn">
+                            <div class="ios-img">
+                                <img src="https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/apple%403x.png" alt="ios-img">
+                            </div>
+                            <div class="ios-text">
+                                DOWNLOAD
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="android-btn">
+                            <div class="android-img">
+                                <img src="https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/androidLogo2%403x.png" alt="android-img">
+                            </div>
+                            <div class="android-text">
+                                DOWNLOAD
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+        </div>
+        
+    </div>
+    <div class="right-side-container">
+        <div class="container-image">
+            <img src="https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/screenshot%403x.png" alt="screenshot">
+        </div>
+    </div>
+    <div class="clear"></div>
+    </div>
+    <footer id="footer">
+        <div class="footer-contain">
+            <div class="footer-left">
+                <div class="footer-text">
+                    PRIVACY POLICY
+                </div>
+                <div class="footer-text">
+                    TERMS AND CONDITIONS
+                </div>
+                <div class="footer-text">
+                    CONTACT
+                </div>
+                <div class="footer-text">
+                    JOBS
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-image">
+                    <img src="https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/001-facebook%403x.png"/>
+                </div>
+                <div class="footer-image">
+                    <img src="https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/002-instagram%403x.png"/>
+                </div>
+                <div class="footer-image">
+                    <img src="https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/003-twitter%403x.png"/>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>
