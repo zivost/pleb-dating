@@ -71,8 +71,15 @@ body{
     box-sizing: border-box;
 }
 .container-image{
-    width: 100%;
-    text-align: right;
+    /* width: 100%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: right;
+    background-image: url(https://s3-us-west-2.amazonaws.com/zivost-boring/cdn/images/screenshot%403x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%; */
 }
 .container-image>img{
     width: 405px;
@@ -83,6 +90,29 @@ body{
 .container-download-buttons{
     display: flex;
 }
+.container-download-buttons>input{
+    width: 263px;
+    height: 57px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding-left: 25px;
+    font-size: 16px;
+    -moz-border-radius: 32px;
+    -webkit-border-radius: 32px;
+}
+.android-btn-sub{
+    width: 160px;
+    height: 57px;
+    border-radius: 32px;
+    background-color: #000000;
+    justify-content: center;
+    margin-left: 17px;
+    box-sizing: border-box;
+    text-align: center;
+}
 .ios-btn{
     width: 183px;
     height: 57px;
@@ -90,9 +120,12 @@ body{
     /* box-shadow: 0 13px 35px 0 rgba(0, 0, 0, 0.26); */
     background-color: #000000;
     justify-content: center;
+    padding-right: 30px;
+    display: flex;
+    box-sizing: border-box;
 }
 .ios-img{
-    float: left;
+    /* float: left; */
     width: 70px;
 }
 .ios-img>img{
@@ -100,7 +133,7 @@ body{
     height: 82px;
 }
 .ios-text{
-    float: left;
+    /* float: left; */
     font-family: "Open Sans";
     font-weight: bold;
     font-style: normal;
@@ -123,9 +156,12 @@ body{
     background-color: #000000;
     justify-content: center;
     margin-left: 17px;
+    display: flex;
+    padding-right: 30px;
+    box-sizing: border-box;
 }
 .android-img{
-    float: left;
+    /* float: left; */
     width: 70px;
 }
 .android-img>img{
@@ -133,7 +169,7 @@ body{
     height: 82px;
 }
 .android-text{
-    float: left;
+    /* float: left; */
     font-family: Open Sans;
     font-weight: bold;
     font-style: normal;
@@ -148,7 +184,7 @@ body{
     line-height: 57px;
 }
 .footer-contain{
-    display: flex;
+    /* display: flex; */
     border-top: solid 1px #f4f4f4;
     height: 60px;
     background-color: black;
@@ -171,10 +207,17 @@ body{
     margin-left: 42px;
 }
 .footer-right{
-    margin-left: auto;
+    /* margin-left: auto;
+    display: flex;
+    align-items: center; */
+    display: flex;
+    align-items: center;
+    float: right;
+    vertical-align: middle;
+    height: 60px;
 }
 .footer-image{
-    float: left;
+    /* float: left; */
     margin-right: 34px;
 }
 .footer-image>img{
@@ -187,9 +230,59 @@ body{
     display: none;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   /* Tablet */
-    
+    .left-side-container{
+        float: none;
+        width: 100%;
+        padding: 37px;
+        box-sizing: border-box;
+        margin-right: 100px;
+        margin-top: -20px
+    }
+    .right-side-container{
+        margin-top: -20px;
+        float: none;
+        width: 50%;
+        padding: 60px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-contain{
+        height: auto;
+        display: block;
+    }
+    #footer{
+        height: 100%;
+        max-height : 50%;
+    }
+    .footer-left{
+      text-align: center;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer-text{
+      margin-right: 0px;
+      float: none;
+      line-height: 45px;
+    }
+    .footer-right{
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 40px;
+      justify-content: center;
+      display: flex;
+      float: none;
+    }
+    .footer-image{
+      margin-left: auto;
+      margin-right: auto;
+      align-self: center;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -221,7 +314,15 @@ body{
       margin-left: 0;
   }
   .right-side-container{
-      display: none;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: none; 
+    width: 100%;
+    padding: 0px;
+  }
+  .container-image>img{
+    width: 350px;
   }
   .footer-contain{
       height: 100%;
@@ -248,10 +349,25 @@ body{
     height: 40px;
     justify-content: center;
     display: flex;
+    float: none;
   }
   .footer-image{
     margin-left: auto;
     margin-right: auto;
     align-self: center;
   }
+  .android-btn{
+    margin-left: 7px;
+    padding-right: 0px;
+  }
+  .ios-btn{
+    padding-right: 0px;
+  }
+  .android-text{
+      display: none;
+  }
+  .ios-text{
+      display: none;
+  }
+  
 }  
