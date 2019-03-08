@@ -182,19 +182,20 @@ body{
     justify-content: center;
     align-items: center;
     align-self: center;
-    line-height: 57px;
+    /* line-height: 57px; */
     background: transparent;
     width: 100%;
     height: 100%;
     border-radius: 32px;
     border: none;
+    cursor: pointer;
 }
 .footer-contain{
     /* display: flex; */
     border-top: solid 1px #f4f4f4;
     height: 60px;
     background-color: black;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -210,7 +211,6 @@ body{
     color: #ffffff;
     margin-right: 66px;
     line-height: 60px;
-  
 }
 .footer-left{
     margin-left: 42px;
@@ -229,7 +229,7 @@ body{
     /* float: left; */
     margin-right: 34px;
 }
-.footer-image>img{
+.footer-image>a>img{
     width: 25px;
     height: 25px;
 }
