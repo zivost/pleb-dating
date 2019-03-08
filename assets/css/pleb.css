@@ -194,6 +194,9 @@ body{
     border-top: solid 1px #f4f4f4;
     height: 60px;
     background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .footer-text{
     float: left;
@@ -259,6 +262,7 @@ body{
     .footer-contain{
         height: auto;
         display: block;
+        position: initial;
     }
     #footer{
         height: 100%;
@@ -333,6 +337,8 @@ body{
   .footer-contain{
       height: 100%;
       display: block;
+      position: initial;
+      width: 100%
   }
   #footer{
       height: 100%;
