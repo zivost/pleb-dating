@@ -369,11 +369,24 @@ body{
   .ios-btn{
     padding-right: 0px;
   }
-  .android-text{
+  /* .android-text{
       display: none;
-  }
+  } */
   .ios-text{
       display: none;
+  }
+  .container-download-buttons{
+    display: block;
+    width: 100%;
+    margin-left: 15px;
+  }
+  .container-download-buttons>input{
+    width: 100%;
+  }
+  .android-btn-sub{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
   }
   
 }  
