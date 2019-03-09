@@ -199,7 +199,7 @@ body{
     bottom: 0;
     width: 100%;
 }
-.footer-text{
+.footer-text>a{
     float: left;
     font-family: "Open Sans";
     font-size: 13px;
@@ -211,6 +211,10 @@ body{
     color: #ffffff;
     margin-right: 66px;
     line-height: 60px;
+    text-decoration: none;
+}
+.footer-text>a:hover{
+    text-decoration: underline;
 }
 .footer-left{
     margin-left: 42px;
@@ -274,7 +278,7 @@ body{
       margin-left: auto;
       margin-right: auto;
     }
-    .footer-text{
+    .footer-text>a{
       margin-right: 0px;
       float: none;
       line-height: 45px;
@@ -350,7 +354,7 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
-  .footer-text{
+  .footer-text>a{
     margin-right: 0px;
     float: none;
   }
