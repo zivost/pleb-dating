@@ -4,7 +4,11 @@ function onSubmit(){
     let btnId =  document.getElementById("submit");
     let btnDis = document.getElementById("upper");
     let isValid = false;
-    ga('send', 'event', "GetEarlyAccessButton", "Clicked", "GetEarlyAccess", 1);
+    gtag('event', "GetEarlyAccessButton", {
+        'event_category': "Clicked",
+        'event_label': "GetEarlyAccess",
+        'value': 1
+    });
     if ( email !== "" ) {
         if(emailregx.test(email)){
             isValid = true
@@ -29,7 +33,11 @@ function onSubmit(){
                 alert("Success!")
                 btnId.disabled = false;
                 btnDis.style.backgroundColor = "#000000"
-                ga('send', 'event', "GetEarlyAccessButton", "Submitted", "GetEarlyAccess", 1);
+                gtag('event', "GetEarlyAccessButton", {
+                    'event_category': "Submitted",
+                    'event_label': "GetEarlyAccess",
+                    'value': 1
+                });
             }
         }
         xmlHttp.send(JSON.stringify({"email": email}))
@@ -54,7 +62,11 @@ ready(function(){
 })
 
 function agree(){
-    ga('send', 'event', "CookiePolicyButton", "Clicked", "CookiePolicyAgreeEvent", 1);
+    gtag('event', "CookiePolicyButton", {
+        'event_category': "Clicked",
+        'event_label': "CookiePolicyAgreeEvent",
+        'value': 1
+    });
     localStorage.setItem("cookie_policy_accepted","yes");
     el.classList.remove("cookieConsentVisible");
 }
