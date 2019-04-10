@@ -400,3 +400,41 @@ body{
   }
   
 }  
+
+/*Cookie Consent Begin*/
+.cookieConsent {
+    background-color: black;
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 42px 8px 42px;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 9999;
+    bottom: -70px;
+    transition: bottom 0.5s ease;
+    -moz-transition: bottom 0.5s ease;
+    -o-transition: bottom 0.5s ease;
+}
+#closeCookieConsentButton {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 60px 0 10px;
+    border: 0;
+    font-size: 14px;
+    
+}
+.cookieConsent > a {
+    color: white;
+}
+.cookieConsentVisible {
+    bottom: 60px;
+}

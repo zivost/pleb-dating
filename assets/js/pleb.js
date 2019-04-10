@@ -4,6 +4,7 @@ function onSubmit(){
     let btnId =  document.getElementById("submit");
     let btnDis = document.getElementById("upper");
     let isValid = false;
+    ga('send', 'event', "GetEarlyAccessButton", "Clicked", "GetEarlyAccess", 1);
     if ( email !== "" ) {
         if(emailregx.test(email)){
             isValid = true
@@ -28,8 +29,32 @@ function onSubmit(){
                 alert("Success!")
                 btnId.disabled = false;
                 btnDis.style.backgroundColor = "#000000"
+                ga('send', 'event', "GetEarlyAccessButton", "Submitted", "GetEarlyAccess", 1);
             }
         }
         xmlHttp.send(JSON.stringify({"email": email}))
     }
+}
+
+var el = document.getElementsByClassName("cookieConsent")[0];
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+ready(function(){
+    var policyShow = localStorage.getItem("cookie_policy_accepted") === "yes";
+    if(!policyShow){
+        setTimeout(function () {
+            el.classList.add("cookieConsentVisible");
+        }, 7000);
+    }
+})
+
+function agree(){
+    ga('send', 'event', "CookiePolicyButton", "Clicked", "CookiePolicyAgreeEvent", 1);
+    localStorage.setItem("cookie_policy_accepted","yes");
+    el.classList.remove("cookieConsentVisible");
 }
