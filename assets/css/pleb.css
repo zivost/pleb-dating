@@ -124,6 +124,7 @@ body{
     padding-right: 30px;
     display: flex;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .ios-img{
     /* float: left; */
@@ -160,6 +161,7 @@ body{
     display: flex;
     padding-right: 30px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .android-img{
     /* float: left; */
@@ -375,9 +377,11 @@ body{
   .android-btn{
     margin-left: 7px;
     padding-right: 0px;
+    cursor: pointer;
   }
   .ios-btn{
     padding-right: 0px;
+    cursor: pointer;
   }
   /* .android-text{
       display: none;
