@@ -406,8 +406,14 @@ body{
     margin-top: 10px;
   }
   .cookieConsentVisible{
-      bottom : 0px !important;
+      top : 0px !important;
   }
+  .ios-img{
+      margin-left: -25px;
+  }
+  .android-img{
+    margin-left: -25px;
+}
   
 }  
 
@@ -425,7 +431,7 @@ body{
     right: 0;
     display: block;
     z-index: 9999;
-    bottom: -300px;
+    top: -300px;
     transition: bottom 0.5s ease;
     -moz-transition: bottom 0.5s ease;
     -o-transition: bottom 0.5s ease;
@@ -446,5 +452,5 @@ body{
     color: white;
 }
 .cookieConsentVisible {
-    bottom: 60px;
+    top: 0px;
 }
