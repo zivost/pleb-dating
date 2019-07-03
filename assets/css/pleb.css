@@ -317,7 +317,7 @@ body{
   }
   .left-side-container{
     float: none;
-    width: 90%;
+    width: 100%;
     padding: 0; 
     box-sizing: border-box;
     margin-right: 0;
@@ -375,24 +375,27 @@ body{
     align-self: center;
   }
   .android-btn{
-    margin-left: 7px;
+    margin-left: 0px;
     padding-right: 0px;
     cursor: pointer;
+    width:  100%;
+    margin-top: 10px;
   }
   .ios-btn{
     padding-right: 0px;
     cursor: pointer;
+    width: 100%;
   }
   /* .android-text{
       display: none;
   } */
   .ios-text{
-      display: none;
+      /* display: none; */
   }
   .container-download-buttons{
     display: block;
     width: 100%;
-    margin-left: 15px;
+    /* margin-left: 15px; */
   }
   .container-download-buttons>input{
     width: 100%;
@@ -402,6 +405,15 @@ body{
     margin-left: 0px;
     margin-top: 10px;
   }
+  .cookieConsentVisible{
+      top : 0px !important;
+  }
+  .ios-img{
+      margin-left: -25px;
+  }
+  .android-img{
+    margin-left: -25px;
+}
   
 }  
 
@@ -419,7 +431,7 @@ body{
     right: 0;
     display: block;
     z-index: 9999;
-    bottom: -70px;
+    top: -300px;
     transition: bottom 0.5s ease;
     -moz-transition: bottom 0.5s ease;
     -o-transition: bottom 0.5s ease;
@@ -440,5 +452,5 @@ body{
     color: white;
 }
 .cookieConsentVisible {
-    bottom: 60px;
+    top: 0px;
 }
