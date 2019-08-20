@@ -10,7 +10,7 @@ tags:
   - Lifestyle
 ---
 
-\!\[alt text\]([https://cdn.zivost.com/pleb/blog-images/movin-to-new-city-main.jpg](https://cdn.zivost.com/pleb/blog-images/movin-to-new-city-main.jpg){: target="_blank"})
+![alt text]([https://cdn.zivost.com/pleb/blog-images/movin-to-new-city-main.jpg](https://cdn.zivost.com/pleb/blog-images/movin-to-new-city-main.jpg){: target="_blank"})
 
 Moving to a new city is a big deal. You are leaving your comfort zone behind to build a new life all together. You are full of excitement and fear to explore this new place full of fresh faces and opportunities. But what makes this move tougher, is to meet new people and make friends with them. Like you already don’t have enough on your plate from finding grocery stores to understanding the local transport, now you have to make friends too\! You have to let your guard down, adjust, compromise and behave in certain way in the beginning just to have someone to connect to. It’s the melancholy which hits you the hardest at first and this loneliness makes you do crazy things. Like saying yes to every plan someone makes or being extra sweet to everyone you come across just to get ‘accepted’ in that already existing social circle. And, then comes the hard realization of ‘what am I doing? I was never like this, I wouldn’t have done this, I am not going to doing this anymore\!’ This is like a circle of life. Only if you had good apps to find ‘friends\!’
 
