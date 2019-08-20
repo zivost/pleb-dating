@@ -40,4 +40,6 @@ We know adjusting in a new city can be difficult so just try a few of these poin
 
 So be you\!
 
+&nbsp;
+
 Author : [Navya Bahl](https://www.facebook.com/nvnavya){: target="_blank"}
