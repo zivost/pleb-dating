@@ -4,7 +4,7 @@ title: Modern Day Romances
 description: >-
   These days potential life partners are chosen by swiping right instead of
   marrying young. It’s all about Carpe Diem.
-thumb_image:
+thumb_image: https://cdn.zivost.com/pleb/blog-images/modern-romance-main.jpg
 tags:
   - Lifestyle
   - Romance

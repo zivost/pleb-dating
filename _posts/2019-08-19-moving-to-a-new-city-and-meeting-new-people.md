@@ -4,7 +4,7 @@ title: Moving to a new city and meeting new people
 description: >-
   What makes this move tougher, is to meet new people and make friends with
   them.
-thumb_image:
+thumb_image: https://cdn.zivost.com/pleb/blog-images/movin-to-new-city-main.jpg
 tags:
   - Shifting Cities
   - Lifestyle
