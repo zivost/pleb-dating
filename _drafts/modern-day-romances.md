@@ -11,6 +11,8 @@ tags:
   - Dating
 ---
 
+![Modern Romances](https://cdn.zivost.com/pleb/blog-images/modern-romance-main.jpg)
+
 Long gone are the days of letters, wishful glances and arrange marriages. They are now replaced by short texts, tinder and live in relationships. These days potential life partners are chosen by swiping right instead of marrying young. It’s all about Carpe Diem. Relationships are progressing faster than today’s technology. In a world where now even groceries are bought online, how can we expect people to find their respective partners through traditional methods. Nonetheless, this hasn’t decreased the romance in modern day relationships. Only the definition of romance is transformed or rather reformed. Modern day definition of romance is all about Netflix and chill, pizza nights and Instagram stories. But, what it is majorly about is, being comfortable. Its about love and lust. Its about equality. Its subjective at the most basic level. It doesn’t matter if your parents like them or if his ‘*massi ki behen ki bua’&nbsp;*doesn’t like them, its about you liking them first, its about falling in love first then making them meet your parents, it’s about if your career matters or them. And all these are quite valid questions with definitive answers. Of course, all other factors like family, money, society and many more matter but unlike earlier times they are last on the priority list, maybe not even there at all. Prince charming on a white horse is replaced by a tattooed woman on an airplane. But how to keep this romance alive in this monotonous same day-in, day-out patterned life? Here are some easy but worth it ways to keep those butterflies alive.
 
 1. **Communication is the key**
