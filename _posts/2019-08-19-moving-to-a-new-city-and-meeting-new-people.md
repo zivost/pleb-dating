@@ -6,8 +6,9 @@ description: >-
   them.
 thumb_image: https://cdn.zivost.com/pleb/blog-images/movin-to-new-city-main.jpg
 tags:
-  - Shifting Cities
-  - Lifestyle
+  - lifestyle
+author: "@navyabahl"
+author_name: Navya Bahl
 ---
 
 ![New City](https://cdn.zivost.com/pleb/blog-images/movin-to-new-city-main.jpg)
@@ -39,7 +40,3 @@ This may seem a far-fetched idea, but it actually works at times\! There are man
 We know adjusting in a new city can be difficult so just try a few of these points and maybe you will connect with someone. But what’s more important is to be your real self because that’s what people will genuinely fall for.
 
 So be you\!
-
-&nbsp;
-
-Author : [Navya Bahl](https://www.facebook.com/nvnavya){: target="_blank"}

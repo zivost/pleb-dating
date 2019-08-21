@@ -1,12 +1,6 @@
-@font-face {
-    font-family: WorldofWater;
-    src: url("../fonts/worldofwater.ttf");
-}
 body{
     margin: 0;
-}
-.home-contain{
-    /* margin-bottom: 100px; */
+    text-rendering: optimizeLegibility;
 }
 .header-area{
     height: 100px;
@@ -453,4 +447,69 @@ body{
 }
 .cookieConsentVisible {
     top: 0px;
+}
+
+.author_image {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.author_image_small {
+    width: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.author-section {
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.author-section > hr {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.left-section {
+    float: left;
+}
+.right-section {
+    float: left;
+    padding-left: 24px;
+}
+
+.clickable-section {
+    cursor: pointer;
+}
+
+.author-name {
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0);
+}
+
+.author-username > h2 {
+    font-size: 17px;
+    margin-top: -4px;
+    margin-left: -2px;
+}
+
+.author-username-alt > h2 {
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: -2px;
+}
+
+.section-name {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.clear {
+    clear: both;
 }

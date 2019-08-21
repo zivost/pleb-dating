@@ -9,20 +9,20 @@ port: 4002
 # Optional settings
 
 theme_toggle: false # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
-about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
+about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
 baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
 discus_identifier: # Add your Disqus identifier
-ga_analytics: # Add your GA Tracking Id
+ga_analytics: UA-135460279-1
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
-  facebook: # Add your Facebook handle
+  facebook: https://facebook.com/pleb.dating
   flickr: # Add your Flickr handle
   github: # Add your GitHub handle
   linkedin: # Add your LinkedIn handle
-  twitter: # Add your Twitter handle
+  twitter: https://twitter.com/pleb_dating
   email: # Add your Email address
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
@@ -33,7 +33,7 @@ social:
   tumblr: # Add your Tumblr handle
   bitbucket: # Add your Bitbucket handle
   docker: # Add your Docker Hub handle
-  instagram: # Add your Instagram handle
+  instagram: https://www.instagram.com/pleb.dating/
   keybase: # Add your Keybase handle
   medium: # Add your Medium handle
   spotify: # Add your Spotify handle
@@ -80,5 +80,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-paginate_path: /blog/posts/page/:num/
-permalink: blog/posts/:slug
+paginate_path: /blogs/posts/page/:num/
+permalink: posts/:slug

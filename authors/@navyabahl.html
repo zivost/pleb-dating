@@ -1,0 +1,49 @@
+---
+layout: default
+title: "@navyabahl | Pleb"
+description: "@navyabahl | Pleb"
+author: "@navyabahl"
+author_name: Navya Bahl
+instagram: navyabahl
+facebook: nvnavya
+---
+
+<div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <div class="author-section">
+    <div>
+      <img class="author_image" src="https://cdn.zivost.com/pleb/pleb-authors/@navyabahl.jpeg" />
+    </div>
+    <div class="author-name">
+        <h1>{{ page.author_name }}</h1>
+    </div>
+    <div class="author-username-alt">
+        <h2>{{ page.author }}</h2>
+    </div>
+  </div>
+  <div>
+    <p>
+        A teacher by profession and a lazybones by nature. 
+        She is a tea aficionado and, a firm believer of happy endings. 
+        You will always find her reading in free time. 
+        She believes in laughing, shopping and drinking her way through her life. 
+        Also for everything else in between, 
+        there is food.
+    </p>
+  </div>
+  <div class="header-links">
+      {% if page.instagram %}
+        <li>
+          <a href="https://instagram.com/{{ page.instagram }}" rel="noreferrer noopener" target="_blank" title="Instagram">
+            {% include svg-icon.html icon="instagram" %}
+          </a>
+        </li>
+      {% endif %}
+      {% if page.facebook %}
+        <li>
+          <a href="https://www.facebook.com/{{ page.facebook }}" rel="noreferrer noopener" target="_blank" title="Facebook">
+            {% include svg-icon.html icon="facebook" %}
+          </a>
+        </li>
+      {% endif %}
+  </div>
+</div>
