@@ -40,29 +40,13 @@
   {% if site.theme_toggle == true %}
 
     {% if site.blog_theme == "light" %}
-      <link rel="icon" type="image/x-icon" href="{% asset favicon-light.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-light.png @path %}">
       <link rel="stylesheet" type="text/css" title="light" id="light" href="{% asset light.css @path%}">
       <link rel="stylesheet" type="text/css" title="dark" id="dark" href="{% asset dark.css @path%}" disabled="true">
     {% else %}
-      <link rel="icon" type="image/x-icon" href="{% asset favicon-dark.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-dark.png @path %}">
       <link rel="stylesheet" type="text/css" title="light" id="light" href="{% asset light.css @path%}">
       <link rel="stylesheet" type="text/css" title="dark" id="dark" href="{% asset dark.css @path%}" disabled="false">
     {% endif %}
-
-  {% else %}
-
-    {% if site.blog_theme == "light" %}
-      <link rel="icon" type="image/x-icon" href="{% asset favicon-light.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-light.png @path %}">
-      {% asset light.css %}
-    {% else %}
-      <link rel="icon" type="image/x-icon" href="{% asset favicon-dark.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-dark.png @path %}">
-      {% asset dark.css %}
-    {% endif %}
-
+  
   {% endif %}
   
   <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.zivost.com/pleb/pleb-icons/apple-icon-57x57.png">
@@ -78,6 +62,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.zivost.com/pleb/pleb-icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.zivost.com/pleb/pleb-icons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.zivost.com/pleb/pleb-icons/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="https://cdn.zivost.com/pleb/pleb-icons/apple-icon-180x180.png">
   <link rel="manifest" href="https://cdn.zivost.com/pleb/pleb-icons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
