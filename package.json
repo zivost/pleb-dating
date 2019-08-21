@@ -6,6 +6,5 @@
     "publish": "bin/deploy"
   },
   "dependencies": {
-    "webfontloader": "^1.6.28"
   }
 }
