@@ -3,13 +3,15 @@ body{
     text-rendering: optimizeLegibility;
 }
 .header-area{
-    height: 100px;
+    /* height: 100px; */
     margin-top: 50px;
     margin-bottom: -50px;
 }
 .header-logo{
-    line-height: 100px;
+    /* line-height: 100px; */
     margin-left: 72px;
+    margin-top: 80px;
+    display: block !important;
 }
 .header-logo>img{
     width: 62px;
@@ -238,6 +240,13 @@ body{
     height: 60px;
     display: none;
 }
+.blog-content{
+    padding-left: 140px !important;
+    padding-right: 140px !important;
+}
+.blog-view-margin{
+    margin-top: 57px !important;
+}
 
 @media (min-width: 481px) and (max-width: 1024px) {
   /* Tablet */
@@ -294,8 +303,20 @@ body{
       align-self: center;
     }
 }
-
+@media screen and (min-width: 481px) and (max-width: 1060px) {
+    .responsive-blog-content{
+        padding-left: 95px !important;
+        padding-right: 95px !important;
+    }
+    
+}
 @media (min-width: 320px) and (max-width: 480px) {
+    .responsive-blog-content {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
   /* Mobile */
   .header-area{
     height: 100px;
@@ -407,8 +428,10 @@ body{
   }
   .android-img{
     margin-left: -25px;
-}
-  
+  }
+  .blog-view-margin {
+    margin-top: 17px !important;
+}  
 }  
 
 /*Cookie Consent Begin*/
