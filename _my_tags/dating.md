@@ -1,4 +1,0 @@
----
-slug: dating
-name: dating
----

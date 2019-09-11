@@ -1,4 +1,0 @@
----
-slug: lifestyle
-name: lifestyle
----
