@@ -1,0 +1,9 @@
+name: Pleb Dating Website
+
+on: [push]
+
+jobs:
+  build:
+    - name: Build and deploy to GitHub Pages
+      uses: EdricChan03/action-build-deploy-ghpages@v2.0.0
+
