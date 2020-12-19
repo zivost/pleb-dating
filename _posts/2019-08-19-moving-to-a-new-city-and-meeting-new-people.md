@@ -39,4 +39,8 @@ This may seem a far-fetched idea, but it actually works at times\! There are man
 
 We know adjusting in a new city can be difficult so just try a few of these points and maybe you will connect with someone. But what’s more important is to be your real self because that’s what people will genuinely fall for.
 
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 So be you\!
